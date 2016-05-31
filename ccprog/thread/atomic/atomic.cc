@@ -1,10 +1,11 @@
 // atomic.cc
-
+// g++ atomic.cc -std=c++11 -pthread -o atomic
 #include <iostream>
 #include <atomic>
 #include <thread>
 
 std::atomic <int> foo(0);
+//std::atomic_init(&foo,0);
 
 void set_foo(int x)
 {
