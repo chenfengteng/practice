@@ -1,0 +1,4 @@
+This folder includes some practice about smart pointer , implementation by c & c++ language.
+
+Compile Command:
+g++ main.cc -o program_name
